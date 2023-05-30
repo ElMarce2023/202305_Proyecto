@@ -5,24 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Proyecto Mascotas</title>
+    <link rel="stylesheet" href="./assets/css/form1.css">
+
+     <!--REFERENCIA Icon-Font-->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <title>PROYECTO MIS MASCOTAS</title>
 </head>
 <body>
     <div class="contenedor">
+        
         <header class="encabezado">
-            <div id ="logo">
-                <img src="./assets/img/logo.jpg" alt="Mi Mascota">                 
-            </div> 
-            <div class="menu">
-                <nav>               
-                    <ul>
-                        <li><a href="#">NOSOTROS</a></li>
-                        <li><a href="#">SERVICIOS</a> </li>
-                        <li><a href="#">ADOPTA</a> </li>
-                        <li><a href="#">DONA</a> </li>
-                    </ul>                
-                </nav>
-            </div>
+         
         </header>
 
         <main class="contenido">
@@ -38,52 +32,40 @@
 
         <aside class="sidebar">
             
-            <div>     
-                <img src="./assets/img/perros1.jpg" alt=""> 
+            <div class="noticias">                
+                <h2>NOTICIAS</h2>
+                
+                <a href="./pages/noticias.html" target="_blank"><img src="./assets/img/noticia.jpg" alt="Noticias"></a>
             </div>
 
-            <div>          
-                <img src="./assets/img/refugio.jpg" alt="Refugio">
+            <div class="ubicacion">
+                <h2>VISITANOS</h2>
+                <!-- Mapa embebido -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13090.43509821207!2d-58.4327792!3d-34.8911692!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd524123fd69d%3A0xc8636b72951eb39b!2sEl%20campito%20Refugio!5e0!3m2!1ses-419!2sar!4v1685390049489!5m2!1ses-419!2sar" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>          
             </div>
 
-            <div class="noticias">
-                <!-- Tiene un enlace a cualquier noticia que la abre en otra pestaña. Ver que ponemos -->
-                <img src="./assets/img/noticia.jpg" alt="Noticias">
-                <a href="https://www.pagina12.com.ar/418472-ong-que-luchan-contra-la-crueldad-animal-historias-de-los-re" target="_blank">ONG que luchan contra la crueldad animal: historias de los refugios que salvan a perros y gatos</a>
-            </div>
+            
             
         </aside>
 
         <div class="widget-1">
-            <!-- Ver que ponemos -->
-            <h3>HISTORIAS</h3>
+            <div id="fondo-Galeria" class="widget-1">
+                          
+                <a href="./pages/consumirAPI.html"><h2>GALERIA DE IMAGENES</h2></a>
+            </div>
         </div>
         
-        <div class="widget-2">
-            <!-- Ver que ponemos -->
-            <h3>DONAR</h3>
+        <div class="widget-2">     
+            <div id="fondo-Colabora" class="widget-2">            
+                <h2>COLABORA CON NOSOTROS</h2>
+            </div>
         </div>
 
         <footer class="pie">
-            <div>
-                <!-- ver si ponemos algo mas o lo sacamos -->
-            </div>
-
-            <div class="ubicacion">
-                <!-- Mapa embebido en  el footer -->
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3273.982821336707!2d-58.66254442498958!3d-34.85665897089932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcddc9cd2bef35%3A0x9a43da793771d53!2sRefugio%20Las%20Renatas!5e0!3m2!1ses-419!2sar!4v1683345668785!5m2!1ses-419!2sar" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-
-            <div>
-                <!-- Poner iconos de redes sociales -->
-                <h3>CONTACTOS</h3>
-            </div>
-
-            <div>
-                <!-- Ver que ponemos -->
-                <h3>TEXTO</h3>
-            </div>
+         
         </footer>
-    </div>    
+    </div>   
+    <script src="./assets/js/header.js"></script> 
+    <script src="./assets/js/footer.js"></script>
 </body>
 </html>
